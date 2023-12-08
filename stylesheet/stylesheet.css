@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+}
+a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #5B7252;
+}
+.bg-shadow{
+    box-shadow: 0 0 10px #bbbbbb;
+}
+.nav{
+    text-align: right;
+}
+.nav a{
+   padding: 0 10px;
+   font-family: "optima", sans-serif;
+    color: white;
+    text-align: center;
+}
+.padded{
+    padding: 16px;
+}
+.text2{
+    font-family: "optima", sans-serif;
+    color: black;
+    text-align: center;  
+}
+.text{
+    font-family: "optima", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.topimg1{
+    width: 312px;
+    height: 377px;
+    padding-right: 4%;
+}
+
+.topimg2{
+    width: 312px;
+    height: 377px;
+    padding-right: 4%; 
+}
+
+.green-box1{
+    padding: 5px;
+    background-color: #5B7252; 
+    height: 200px; 
+    max-width: 700px; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-family: "optima", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.green-box2{
+    padding: 5px;
+    background-color: #5B7252; 
+    height: 200px; 
+    max-width: 700px; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "optima", sans-serif;
+    color: white;
+    text-align: center;
+
+}
+
+.green-box3{
+    padding: 5px;
+    background-color: #5B7252; 
+    height: 200px; 
+    max-width: 700px; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-family: "optima", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.dishtab1{
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+
+.dishtab2{
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+.dishtab3{
+    height: 200px;
+    width: 200px;
+    text-align: centerss;
+}
+
+.instagram{
+    margin-left: 20%;
+    font-family: 'optima',sans-serif;
+}
+.facebook{
+    margin-left: 21%;
+    font-family: 'optima',sans-serif;
+}
+.twitter{
+    margin-left: 26%;
+    font-family: 'optima',sans-serif;
+}
+
+.footer{
+    background-color: #5B7252;
+   padding-top: 15px;
+   padding-bottom: 80px;
+}
+
+.footertext{
+    text-align: center;
+    font-family: 'optima',sans-serif;
+    color: white;
+}
+.mobile-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.mobile-menu a{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+@media screen and (max-width: 648px) {
+
+#header{
+    display: inline-block;
+}
+}
+
+.socails{
+    text-align: center;
+}
+.align-middle{
+    vertical-align: middle;
+}
